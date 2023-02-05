@@ -24,7 +24,7 @@ export default function Product({product}:PropsProduct) {
             details &&
             <div>
                 <p>{product.description}</p>
-                <p>Rate: <span style={{fontWeight:'bold'}}>{product.rating.rate}</span></p>
+                <p>Rate: <span style={{fontWeight:'bold'}}>{product?.rating?.rate}</span></p>
                 <button className="bg-green-300 py-2 px-4 block mx-auto hover:bg-yellow-300">Buy</button>
             </div>
             }
