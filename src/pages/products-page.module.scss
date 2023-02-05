@@ -1,0 +1,7 @@
+.container {
+    @apply mx-auto max-w-4xl pt-14 flex flex-wrap justify-center gap-4;
+
+    .title {
+        @apply text-3xl font-bold underline text-center flex-grow w-full;
+    }
+}
