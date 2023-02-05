@@ -1,0 +1,7 @@
+.product {
+    @apply p-2 w-96 h-auto border border-gray-300 flex flex-wrap justify-center items-center my-3
+    hover:bg-slate-300    
+}
+.productTitle {
+    @apply w-full text-center
+}
